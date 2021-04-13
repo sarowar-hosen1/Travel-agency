@@ -1,0 +1,29 @@
+.blog{
+    box-shadow: 3px 4px 5px 1px #cfcfcf;
+}
+
+.blog-head{ 
+    position: relative;
+    overflow: hidden;
+}
+.blog-head h6 {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #ff552f;
+    padding: 5px 15px;
+    color: white;
+    font-size: 14px;
+    font-family: inherit;
+}   
+.blog .content{
+    padding:20px;
+}
+.blog .content h5{
+    font-family: revert;
+    font-size: 22px;
+    font-weight: 400;
+}
+.blog .content p{
+    font-family: 'Source Sans Pro', sans-serif;
+}

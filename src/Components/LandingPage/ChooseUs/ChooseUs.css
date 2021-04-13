@@ -1,0 +1,40 @@
+.choose-us {
+    background-color: #f4f4f4;
+    padding-bottom: 50px;
+}
+.choose-us-img{
+    position: relative;
+}
+
+.choose-us-img img {
+    border-radius: 20px;
+}
+.choose-us-img .tumb-1{
+    position: absolute;
+    width:150px;
+    left:-40px;
+    top: 40px;
+}
+
+.choose-us-img .tumb-2{
+    position: absolute;
+    width:150px;
+    right:-40px;
+    bottom:40px;
+}
+
+.choose-us-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.choose-us-card i svg {
+    color: #ff552f;
+    font-size: 40px;
+    border-radius: 50%;
+    margin: 15px 0px;
+}
+
+.choose-us-card p{
+    font-family: 'Source Sans Pro', sans-serif;
+}

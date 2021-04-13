@@ -1,0 +1,42 @@
+.gallery{
+    padding: 20px;
+}
+
+.gallery-card {
+    position: relative;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.gallery-card img{
+    transition: 0.5s ease;
+}
+
+.gallery-card h6 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #ff552f;
+    padding: 4px 25px;
+    color: white;
+    font-family: initial;
+    font-size: 14px;
+}
+.gallery-card i svg {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff552f;
+    color: white;
+    padding: 5px;
+    font-size: 40px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.gallery-card:hover img {
+    filter: brightness(70%);
+}
+.gallery-card:hover i svg{
+    opacity: 1;
+}

@@ -1,0 +1,47 @@
+.destination-card{
+    position: relative;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.destination-card img{
+    transition: 0.5s ease;
+}
+.destination-card h5{
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    color: white;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease;
+}
+
+.destination-card button{
+    opacity: 0;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    transition: all 0.2s ease 0s;
+}
+
+.destination-card:hover img{
+    filter: brightness(50%);
+}
+.destination-card:hover h5{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.destination-card:hover button{
+    opacity: 1;
+    margin: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease;
+}

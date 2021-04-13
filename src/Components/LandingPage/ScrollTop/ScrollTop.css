@@ -1,0 +1,13 @@
+.scroll-top i svg {
+    background-color: #ff552f;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.scroll-top{
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+}

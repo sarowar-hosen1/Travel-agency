@@ -1,0 +1,51 @@
+.package {
+    margin: 10px;
+    box-shadow: 4px 4px 7px #cbcbcb;
+    cursor: pointer;    
+}
+
+ /* Header  */
+.package-header{
+    overflow: hidden;
+    position: relative;
+}
+.package-header img{
+    transition: 1s ease;
+}
+.package-header .price {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: #ff552f;
+    padding: 6px 12px;
+    color: white;
+}
+.package-header button{
+    opacity: 0;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease;
+}
+
+/* content */
+
+.package-content{
+    padding: 20px;
+}
+.package-content i{
+    color: orange;
+}
+.package-content p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Hover */
+.package:hover button{
+    opacity: 1;
+}   
+.package:hover img{
+    filter: brightness(50%);
+    transform: scale(1.1);
+}

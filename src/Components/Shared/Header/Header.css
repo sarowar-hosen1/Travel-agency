@@ -1,0 +1,23 @@
+.navbar{
+    position:absolute !important;
+    width:100%;
+    z-index: 999;
+
+}
+.sticky-top {
+    background-color: #000000b6 !important;
+    width: 100%;
+    height: 70px;
+}
+.navbar-brand{
+    width:150px;
+}
+.nav-link {
+    font-family: 'Recursive', sans-serif;
+    color: white;
+    cursor: pointer;
+    transition:0.5s;
+}
+.nav-link:hover{
+    color: #f9461d
+}
