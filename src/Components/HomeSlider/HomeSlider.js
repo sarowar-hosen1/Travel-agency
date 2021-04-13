@@ -1,7 +1,7 @@
 import React from 'react';
-import slider1 from '../../../image/slide1.jpg';
-import slider2 from '../../../image/slide2.jpg';
-import slider3 from '../../../image/slide3.jpg';
+import slider1 from '../../image/slide1.jpg';
+import slider2 from '../../image/slide2.jpg';
+import slider3 from '../../image/slide3.jpg';
 import {Link } from 'react-scroll';
 import './HomeSlider.css';
 

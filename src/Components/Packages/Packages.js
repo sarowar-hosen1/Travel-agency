@@ -1,5 +1,5 @@
 import React from 'react';
-import Package from '../../Shared/Package';
+import Package from './Package';
 
 
 

@@ -1,16 +1,16 @@
 import React from 'react';
-import ChooseUs from '../LandingPage/ChooseUs/ChooseUs.js'
-import ContactUs from '../LandingPage/ContactUs/ContactUs';
-import Destination from '../LandingPage/Destination/Destination';
-import Gallery from '../LandingPage/Gallery/Gallery';
-import GoogleMap from '../Shared/GoogleMap/GoogleMap';
-import Header from '../Shared/Header/Header';
-import HomeSlider from '../LandingPage/HomeSlider/HomeSlider';
-import OurBlog from '../LandingPage/OurBlog/OurBlog';
-import Packages from '../LandingPage/Packages/Packages';
-import ScrollTop from '../LandingPage/ScrollTop/ScrollTop.js';
-import Services from '../LandingPage/Services/Services';
-import BookingForm from '../Shared/BookingForm.js';
+import ChooseUs from '../ChooseUs/ChooseUs.js'
+import ContactUs from '../ContactUs/ContactUs';
+import Destination from '../Destination/Destination';
+import Gallery from '../Gallery/Gallery';
+import GoogleMap from '../GoogleMap/GoogleMap';
+import Header from '../Header/Header';
+import HomeSlider from '../HomeSlider/HomeSlider';
+import OurBlog from '../OurBlog/OurBlog';
+import Packages from '../Packages/Packages';
+import ScrollTop from '../ScrollTop/ScrollTop.js';
+import Services from '../Services/Services';
+import BookingForm from '../BookingForm.js';
 
 const Home = () => {
     return (

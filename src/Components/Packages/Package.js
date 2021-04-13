@@ -10,7 +10,7 @@ import 'swiper/components/scrollbar/scrollbar.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/swiper.scss';
-import BookingForm from './BookingForm';
+import BookingForm from '../BookingForm';
 
 
 

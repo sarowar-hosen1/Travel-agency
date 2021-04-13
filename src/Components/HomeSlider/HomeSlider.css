@@ -40,12 +40,12 @@
 .carousel-indicators { visibility: hidden; }
 
 .carousel-control-next-icon{
-    background-image: url(../../../image/next.png) !important;
+    background-image: url(../../image/next.png) !important;
     width:40px !important;
     height:40px !important;
 }
 .carousel-control-prev-icon{
-    background-image: url(../../../image/previous.png) !important;
+    background-image: url(../../image/previous.png) !important;
     width:40px !important;
     height:40px !important;
 }
