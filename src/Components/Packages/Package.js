@@ -30,11 +30,23 @@ const Package = () => {
     return (
         <Swiper
             observer={true}
-            spaceBetween={50}
+            spaceBetween={20}
             slidesPerView={3}
             loop={true}
             autoplay={{
                 delay: 2000,
+            }}
+            breakpoints={{
+                // when window width is >= 640px
+                320: {
+                    width: 320,
+                    slidesPerView: 1,
+                },
+                // when window width is >= 768px
+                640: {
+                    width: 640,
+                    slidesPerView: 2,
+                },
             }}
         >
 

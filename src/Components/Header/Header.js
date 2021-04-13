@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
+import { FaBars, FaWindowClose } from 'react-icons/fa';
 import './Header.css';
 
 const Header = () => {
 
     const [sticky, setSticky] = useState(false);
+    const [bar, setBar] = useState(true);
 
     const handleScroll = () => {
         if (window.pageYOffset > 150) {
@@ -23,8 +25,13 @@ const Header = () => {
                     <Link className="navbar-brand" href="#">
                         <img src="https://cdn.worldvectorlogo.com/logos/trivago.svg" alt="" />
                     </Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                    <button onClick={() => setBar(!bar)} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        {
+                            bar ? 
+                            <i><FaBars /></i>
+                            :
+                            <i><FaWindowClose /></i>
+                        }
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto mb-2 mb-lg-0">

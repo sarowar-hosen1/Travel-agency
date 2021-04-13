@@ -21,3 +21,14 @@
 .nav-link:hover{
     color: #f9461d
 }
+
+@media screen and (max-width:768px){
+    .navbar-toggler{
+        color: #f9461d;
+    }
+    .navbar-nav{
+        background-color: rgba(0, 0, 0, 0.575);
+        padding: 10px !important;
+        width: 100%;
+    }   
+}
